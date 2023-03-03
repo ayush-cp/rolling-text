@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000;
+
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .intro{
+    
+} */
+.hi{
+    display: block;
+    font-size: 4em;
+    background: -webkit-linear-gradient(#eee, #333);
+
+}
+.iam{
+    display: inline-block;
+    font-size: 3em;
+    color: limegreen;
+}
+.container{
+    width: 20vw;
+    height: 10vh;
+    position: relative;
+    top: 70px;
+    overflow: hidden;
+   
+}
+@keyframes transition{
+    0%{
+        top: 0px;
+    }
+    25%{
+        top: -100px;
+    }
+    50%{
+        top: -200px;
+    }
+    75%{
+        top: -300px;
+    }
+}
+.list{
+    list-style: none;
+    
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+    top: 150px;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-name: transition;
+    
+    
+}
+.elements{
+    font-size: 5em;
+    color: aquamarine;
+    
+
+}
